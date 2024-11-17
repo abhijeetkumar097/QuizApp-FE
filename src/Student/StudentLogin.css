@@ -1,0 +1,46 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    min-height: 100vh;
+    
+  }
+  
+  .form-toggle {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .toggle-btn {
+    border: none;
+    background: #25171f;
+    color: #514f4f;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .toggle-btn.active {
+    background: #646cff;
+    color: white;
+    border-radius: 10px 10px 0 0;
+  }
+
+.form1 {
+    width: 300px;
+    border: 1px solid #646cff;;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(241, 240, 240);
+    padding: 10px;
+    height: auto;
+
+}
+.form input[type="text"], input[type="password"]{
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #646cff;
+    margin-bottom: 10px;
+    outline: none;
+    padding-left: 10px;
+}

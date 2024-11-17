@@ -1,0 +1,52 @@
+.container {
+    /* margin: 0 auto;
+    padding: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-left: 17%;
+    color: white;
+    max-width: 80%;
+  }
+  
+  .aboutHeader {
+    text-align: center;
+    color: #646cff;
+    margin-bottom: 20px;
+  }
+  
+  .heading {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  .aboutSection {
+    margin-bottom: 30px;
+  }
+  
+  .subHeading {
+    font-size: 1.8em;
+    border-bottom: 2px solid #646cff;
+    padding-bottom: 5px;
+    color: #333;
+  }
+  
+  .paragraph {
+    line-height: 1.6;
+    font-size: 1em;
+    margin: 10px 0;
+  }
+  
+  .contact {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.1em;
+  }
+  
+  .link {
+    color: #646cff;
+    text-decoration: none;
+  }
+  

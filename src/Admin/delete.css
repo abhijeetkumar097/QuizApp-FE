@@ -1,0 +1,26 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    margin-left: 15%;
+}
+
+.ques-item {
+    border: 1px solid #646cff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.ques {
+    font-size: 1.3em;
+    /* color: rgb(201, 35, 101) */
+}
+.ans {
+    color: royalblue
+}
+
+input[type="checkbox"] {
+    color: grey
+}
